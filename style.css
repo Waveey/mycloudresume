@@ -20,7 +20,7 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
-    --breakpoint-xs: 480px;
+    --breakpoint-xs: 450px;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
@@ -45,7 +45,7 @@
   }
 
   @media(max-width: 450px){
-    .primary-info h1 {
+    .name {
       font-size: 15px;
       font-weight: 600;
     }
@@ -8616,7 +8616,15 @@
 
   .resume-header img {
     opacity: 0.7;
-    width: 100%;
+    width: 90%;
+    
+  }
+
+  @media (max-width: 450px) {
+    .resume-header img {
+      opacity: 0.9;
+      width: 100%;
+    }
   }
   
   .resume-header a {
