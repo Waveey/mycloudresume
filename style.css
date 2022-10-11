@@ -8595,19 +8595,17 @@
   }
   
   .resume-header {
-    background: #434E5E;
+    background-color: #0a9396;
     color: rgba(255, 255, 255, 0.9);
-    height: 220px;
+    height: 350px;
   }
   
-  .resume-header .picture {
-    /* width: 220px; */
-  }
   
   .resume-header .name {
     font-size: 2.25rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     font-weight: 900;
+    line-height: 76px;
   }
   
   .resume-header .title {
@@ -8615,16 +8613,19 @@
   }
 
   .resume-header img {
-    opacity: 0.7;
+    opacity: 0.9;
     width: 80%;
-    
+    height: 350px;
   }
 
   @media only screen and (max-width: 450px) {
     .resume-header img {
       opacity: 0.9;
       max-width: 70%;
-      
+    }
+    .resume-header .name {
+      font-size: 15px;
+      font-weight: 700;
     }
   }
   
@@ -8633,7 +8634,10 @@
   }
   
   .resume-header a:hover {
-    color: white;
+    color: black;
+  }
+  .resume-header:hover {
+    color: black;
   }
   
   .resume-social {
