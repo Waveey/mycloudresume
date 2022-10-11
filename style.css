@@ -8621,7 +8621,7 @@
   @media only screen and (max-width: 450px) {
     .resume-header img {
       opacity: 0.955;
-      max-width: 50%;
+      max-width: 75%;
     }
     .resume-header .name {
       font-size: 10px;
