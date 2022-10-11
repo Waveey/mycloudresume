@@ -4291,7 +4291,7 @@
     margin-bottom: 15px;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 450px) {
     .card-group {
       flex-flow: row wrap;
     }
@@ -4319,7 +4319,8 @@
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
-    .card-group > .card:last-child .card-img-top,
+    .card-group > .card:last-child .card-
+    -top,
     .card-group > .card:last-child .card-header {
       border-top-left-radius: 0;
     }
@@ -4355,7 +4356,7 @@
     margin-bottom: 0.75rem;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 450px) {
     .card-columns {
       column-count: 3;
       column-gap: 1.25rem;
@@ -4637,7 +4638,7 @@
     border-radius: 0.3rem;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 450px) {
     .jumbotron {
       padding: 4rem 2rem;
     }
@@ -5202,7 +5203,7 @@
     overflow: scroll;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 450px) {
     .modal-dialog {
       max-width: 500px;
       margin: 1.75rem auto;
@@ -6001,7 +6002,7 @@
     display: inline-flex !important;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 450px) {
     .d-sm-none {
       display: none !important;
     }
