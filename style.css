@@ -20,7 +20,7 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
-    --breakpoint-xs: 450px;
+    /* --breakpoint-xs: 450px; */
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
@@ -8624,8 +8624,11 @@
       max-width: 70%;
     }
     .resume-header .name {
-      font-size: 15px;
-      font-weight: 700;
+      font-size: 10px;
+      font-weight: 600;
+    }
+    .resume-header .title {
+      font-size: 10px;
     }
     
   }
