@@ -8605,7 +8605,7 @@
     font-size: 2.25rem;
     letter-spacing: 0.2rem;
     font-weight: 900;
-    line-height: 76px;
+    /* line-height: 76px; */
   }
   
   .resume-header .title {
@@ -8627,6 +8627,7 @@
       font-size: 15px;
       font-weight: 700;
     }
+    
   }
   
   .resume-header a {
